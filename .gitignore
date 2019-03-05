@@ -2,3 +2,5 @@ venv
 test_dynamic_airavata_django_app.egg-info
 *.pyc
 .vscode
+build
+*.egg
