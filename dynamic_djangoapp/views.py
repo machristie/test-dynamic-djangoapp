@@ -6,4 +6,4 @@ from django.contrib.auth.decorators import login_required
 
 @login_required
 def hello_world(request):
-    return HttpResponse("Hello from the Dynamic Django App!")
+    return render(request, "dynamic_djangoapp/hello.html")
